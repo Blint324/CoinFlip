@@ -2,7 +2,7 @@ import random
 import time
 
 flip_times = input("How many times to flip? ")
-if int(flip_times) <= 1:
+if int(flip_times) < 1:
     quit("no.")
 
 start = time.time()
